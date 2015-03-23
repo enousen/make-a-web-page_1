@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Libby Nousen</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Udacity Notes
+    </title>
+  </head>
+  <body>
+    <h1>Main Points</h1>
+    <div class="lesson">
+      <h2>Unit 0: Basics of the Web</h2>
+        <div class="concept">
+          <div class="title">    
+            <p>
+              <b>World Wide Web</b>
+            </p>
+          </div>
+          <div class="paragraph">
+            <p>
+              The web is a collection of HTML documents connected by hyperlinks. There are about 30 billion pages. Browser requests via the internet to servers use HTTP. Servers respond with files that the browser displays, and servers host the files.
+            </p>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="title">
+          <p>
+            <b>HTML</b>
+          </p>
+        </div>
+        <div class="paragraph">
+          <p>
+            HTML, or <u>hypertext markup language</u>, provides the structure. It contains <em>text content</em> – what you see – and <em>markup</em> – what it looks like. You can also enter comments (HTML: !comment; CSS: / * comment * /).
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+        <div class="title">
+          <p>
+            <b>Tags and Elements</b>
+          </p>
+        </div>
+        <div class="paragraph">
+          <p>
+            Tags are formatted with the opening tag, "content", closing tag. Both tags and content form an <em>element.</em> If a tag has no end tag, it is a <b>void tag</b>. There are inline, block, and container tags. Elements like h1, h2, etc. contain semantic meaning and style rules.
+            </p>
+            </div>
+        </div>
+        <div class="concept">
+          <div class="title">
+            <p>
+              <b>White Space</b>
+            </p>
+          </div>
+          <div class="paragraph">
+            <p>
+              All spaces (tabs, enters, multiple spaces) are viewed as a single space in HTML. You can use br (break) tag or p (paragraph) tag to add in extra spaces.
+            </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="title">
+            <p>
+              <b>HTML Documents</b>
+            </p>
+          </div>
+          <div class="paragraph">
+            <p>
+              HTML documents contain: doctype, HTML tag, head tag (CSS styling goes here), title tag (title of page in top of browser window/tab), body tag (content of document).
+            </p>
+          </div>
+        </div>
+        <div class="lesson">
+          <h2>Unit 1: Structuring a Document</h2>
+          <div class="concept">
+            <div class="title">
+              <p>
+                <b>Developer Tools</b>
+              </p>
+            </div>
+            <div class="paragraph">
+              <p>
+                You can access HTML and CSS of a webpage via the Developer Tools; however, not all elements are in structure (ie header). You can click the element in the tools and see details (font size, border width, color). Conversely, you can also right-click the actual element and then "Inspect Element" and see details in Developer Tools. All elements are <i>rectangular</i>, as boxes make it easier to arrange elements. You use div to define boxes.
+              </p>
+            </div>
+          </div>
+          <div class="concept">
+            <div class="title">
+              <p>
+                <b>DOM</b>
+              </p>
+            </div>
+            <div class="paragraph">
+              <p>
+                Elements are contained via the tree-like/branching structure called <em>Document Object Model (DOM)</em>. This is how the browser organizes tags, elements, content.
+              </p>
+            </div>
+          </div>
+          <div class="concept">
+            <div class="title">
+              <p>
+                <b>CSS</b>
+              </p>
+            </div>
+            <div class="paragraph">
+              <p>
+                CSS provides the style; pages can have identical HTML but look totally different because of CSS. You can give "class" attribute to each element with unique names in order to tell what they are.
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+        <div class="lesson">
+          <h2>Unit 2: Using CSS to Add Style</h2>
+          <div class="concept">
+            <div class="title">
+              <p>
+                <b>Adding CSS</b>
+              </p>
+            </div>
+              <div class="paragraph">
+                <p>
+                  You need to add certain tags (!DOCTYPE html and html) to tell browser how to interpret code. You add head tag and then either put in style that will apply to the full document or put the link to the file of style code. In this file, you'll define class titles with the style that you want. You can also add style in the HTML file by using the style tag, but this leads to redundancies if it is done inline.
+                  </p>
+                  </div>
+                  </div>
+                  <div class="concept">
+                    <div class="title">
+                      <p>
+                        <b>Cascading Style Sheets</b>
+                          </p>
+                    </div>
+                  <div class="paragraph">
+                    <p>
+                      CSS stands for <u>Cascading Style Sheets</u> and the "cascading" part means that the most specific rule is applied to an element. <b>Inheritance</b> is the idea that properties are applied to the descendants of an element; properties like color, font, etc. are inherited from ancestor elements. <b>This makes it so you don't have to re-declare properties, eliminating redundancies</b>. Using inheritance to apply styles to multiple elements without having to rewrite them allows developers to write less CSS, which speeds up loading of web pages and saves money on development costs.
+                    </p>
+                  </div>
+                  </div>
+                  <div class="concept">
+                    <div class="title">
+                      <p>
+                        <b>Selectors</b>
+                      </p>
+                    </div>
+                    <div class="paragraph">
+                      <p>
+                        <b>Selectors</b> define the elements that styles will apply to. Style rules will apply to all tags that you define; you can use established element types (like h1 or p) to define all of those types of elements or use <b>class selectors</b> to name elements to style them differently based on class names. The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference list</a> is very helpful in listing and explaining the CSS attributes.
+                      </p>
+                    </div>
+                </div>
+                <div class="concept">
+                  <div class="title">
+                    <p>
+                      <b>The Box Model</b>
+                    </p>
+                  </div>
+                  <div class="paragraph">
+                    <p>
+                      The Box Model contains the components of an element: <b>margin</b> (no background color, the space between boxes), <b>border</b> (surrounds padding/content), <b>padding</b> (space in box around content), and <b>content</b> (image, text). You can calculate the size of an element by adding together the pixels of all of these components. If you set the size as a percentage, the element will adjust depending on the screen size. You can also position elements by using { display: flex; }, which will allow divs to appear next to each other.
+                    </p>
+                  </div>
+                </div>
+                <div class="concept">
+                  <div class="title">
+                    <p>
+                      <b>Testing CSS</b>
+                    </p>
+                  </div>
+                  <div class="paragraph">
+                    <p>
+                      When making your document, first start with structure. Then move on to defining and using tags, sizing elements, and finally positioning them. Then you can test and refine to make small fixes (font, color, etc). You can test the validity of your <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS</a> and <a href="http://validator.w3.org/#validate_by_input">HTML</a> codes to make sure that it will work for all browsers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </body>
+          </html>
+
+</body>
+
+</html>
